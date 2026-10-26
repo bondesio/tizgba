@@ -1,0 +1,9 @@
+{
+  "id": "tizgba-input",
+  "name": "TizGBA selected gamepad capture",
+  "version": "1.0.0",
+  "description": "Grant the TizGBA owner access only to the selected physical USB gamepad event node for exclusive capture, and restore it when disabled. Coordinates with NES, GB, NeoGeo and PSX ownership records under the shared input lock.",
+  "author": "Pablo",
+  "scripts": { "boot": "boot.sh" },
+  "minAgent": "4"
+}

@@ -1,0 +1,25 @@
+# build outputs
+app/bin/
+app/stage/
+app/build/
+launcher/out/*.wgt.tmp
+harness/build/
+tools/__pycache__/
+# local-only test ROMs and captures (never commit game ROMs)
+*.gb
+*.gbc
+*.gba
+*.agb
+*.bios
+*.sav
+harness/out/
+# TV-side backup payloads stay local (manifests are committed)
+backups/**/*.tpk
+backups/**/*.wgt
+backups/**/*.tar
+backups/**/*.bin
+backups/**/*.db
+backups/**/tv/installed/
+# upstream source tarballs / scratch
+vendor/*.tar*
+vendor/*.zip
